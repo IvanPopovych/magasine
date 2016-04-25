@@ -1,0 +1,76 @@
+@import url(reset.css);
+.clear{
+    clear:both;
+}
+body{
+    font:13px/1.4 Arial,Verdana,Tahoma sans-serif;
+    background-image: url(/images/main_bg.jpg);
+}
+a{
+    text-decoration:none;
+    color:#5e5e5e;
+}
+#header{
+    min-width:960px;
+    max-width:1200px;
+    margin:0 auto;
+}
+#logo{
+    width:241px;
+    height:46px;
+    float:left;
+    margin-left:10px;
+    margin-top:44px;
+    margin-bottom:42px;
+}
+#banner{
+    width:468px;
+    height:60px;
+    float:right;
+    margin-top:34px;
+    margin-right:10px;
+}
+#top-menu{
+    height:49px;
+    background:url(../images/top_menu_bg.png) repeat-x;
+    min-width:960px;
+}
+#inner-menu ul li{
+    float:left;
+    text-transform:uppercase;
+}
+#inner-menu a{
+    color: #ebebeb;
+    font-size:12px;
+    padding:16px 15px;
+    display:block;
+}
+#inner-menu,#wrapper{
+    min-width:960px;
+    max-width:1200px;
+    margin:0 auto;
+}
+#inner-menu a:hover{
+    background:url(../images/menu_hover.png) repeat-x;
+}
+#sidebar{
+    width:300px;
+    height: 400px;
+    background-color: #b2b2b2;
+    float:right;
+}
+#content{
+    height: 400px;
+    background-color: green;
+    margin-right:300px;
+}
+.thumbnail{
+    float:left;
+}
+.thumbnail img{
+    border:3px solid #e0e0e0;
+}
+.post-categories{
+    font-family: Georgia,"Times New Roman", Times, serif;
+    color:#aaaaaa;
+}
